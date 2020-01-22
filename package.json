@@ -1,0 +1,30 @@
+{
+  "name": "simple-crud-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^3.0.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.9",
+    "nodemon": "^2.0.2"
+  },
+  "description": "Crud básico com nodejs e token jwt para usuários.",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrieljob/simple-crud-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/gabrieljob/simple-crud-nodejs/issues"
+  },
+  "homepage": "https://github.com/gabrieljob/simple-crud-nodejs#readme"
+}
